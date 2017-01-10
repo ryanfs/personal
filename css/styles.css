@@ -1,0 +1,112 @@
+body {
+  font-size: 22px;
+  color: #444;
+  line-height: 1.5em;
+  background-color: #FFFAF7;
+  text-align: center;
+}
+
+/*https://coolors.co/ea526f-070600-f7f7ff-23b5d3-279af1*/
+h1, h2 {
+  color: salmon;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #0072c7;
+}
+
+a {
+  color: #279AF1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*a:visited {
+ color: #23B5D3;
+}*/
+
+.highlight {
+  background-color: rgb(247, 204, 255);
+  padding: 0 5px;
+}
+
+article {
+  text-align: left;
+  padding: 40px 20%;
+  font-size: 1em;
+  font-family: 'EB Garamond', serif;
+}
+
+article.intro {
+  font-family: 'Domine';
+}
+
+.data {
+  background-color: rgba(0, 225, 225, 0.1);
+}
+
+.projects {
+  background-color: rgba(0, 225, 0, 0.1);
+}
+
+.headshot {
+  border-radius: 10%;
+  margin: 30px 0;
+}
+
+.bar {
+  background-color: #EA526F;
+  border-radius: 15px;
+  width: 80%;
+  display: block;
+  height: 15px;
+  margin: 0 auto;
+}
+
+footer {
+  font-size: .7em;
+  border-top: 5px solid #666;
+  color: #666;
+  font-family: 'Domine';
+}
+
+a.btn {
+  display: inline-block;
+  background: #e2e2e2;
+  border: 0;
+  line-height: 2.5em;
+  padding: 0 0 0 1em;
+  outline: none;
+  text-decoration: none;
+  color: #666;
+  font-size: .3em;
+  float: right;
+}
+
+.btn .arrow {
+    display: inline-block;
+    line-height: 2.5em;
+    text-align: center;
+    background: salmon;
+    color: white;
+    width: 2.5em;
+    transition: margin 200ms;
+    margin-left: .75em;
+  }
+
+img.arrow-img {
+  width: 40%;
+}
+
+.btn:hover {
+  background: white;
+  text-decoration: none;
+}
+
+button::-moz-focus-inner {
+    border: none;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+    <title>Ryan F. Salerno</title>
+    <meta name="author" content="Ryan F. Salerno">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow" />
+    <meta name="google-site-verification" content="" />
+    <meta name="description" content="portfolio" />
+    <meta name="keywords" content="Software Engineer, Software Developer, Cool guy." />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Domine" rel="stylesheet">
+    <script src="js/ryan.js"></script>
+    <!-- TO DO: GET GOOGLE VERIFIED -->
+  <meta >
+</head>
+<body>
+  <article class="intro">
+    <h1><span>Ryan F. Salerno
+      <a href="#" class="btn">Resume <span class="arrow">
+        <img class="arrow-img" src="https://i.stack.imgur.com/IadAX.png"></span>
+      </a>
+    </span></h1>
+  </article>
+
+  <div class="bar"></div>
+
+  <article>
+    <h3>A little about me</h3>
+    <p><span id="time"></span> I'm a developer who lives in <span class="highlight">Brooklyn</span>. I work at a company called <a href="http://newscred.com">NewsCred</a> where my job is to <span class="highlight">design software</span> for enterprise users. I play <span class="highlight">rugby</span>, which is featured on my <a href="instagram.com/ryanfs">instagram</a> account. (Instagram is an iPhone app that my friends and I use to post very similar pictures at the same time to see who can get the most likes and comments.)</p>
+
+    <p>I <span class="highlight">write code</span> which you can see on my <a href="https://github.com/ryanfs">GitHub</a> account. I love side projects, send me a message on <a href="https://linkedin.com/in/ryanfsal">LinkedIn</a> if you're interested in collaborating.
+    </p>
+  </article>
+
+  <article class="data">
+    <h3>A little about you...</h3>
+    <p>Did you notice that time specific greeting up there? Well that's just the start. Using a little bit of <a href="https://developer.mozilla.org/en-US/docs/Web/API/">Javascript</a> I can sniff out things like the browser you're running <span class="highlight" id="showBrowser"></span> on a a <span class="highlight" id="cpu"></span>, your language setting (<span class="highlight" id="language"></span>), and the number of pages you've visited before this one (<span class="highlight">it's <span id="historyLength"></span></span>, and don't worry I can't actually see what the webpages were... that might be invasive to your privacy). </p>
+
+    <p>I can even see the level your <span class="highlight">battery</span> is charged. You're at <span class="highlight"><span id="level"></span>% 🔋</span>. <span id="chargingTime"></span> precious minutes to go!</p>
+    <p>This may come as no surprise, but I can know your exact location. Of course you'll have to grant me permission first, <a onclick="getLocation()">click here</a> to see your exact latitude and longitude. <p><span id="showLocation"></span></p>
+    </p>
+    <p>If you think this is creepy, that's because it is. Again, all of this information is being sent up by your computer and made available to anyone running a webpage using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/">Javascript Web API</a>.</p>
+  </article>
+
+  <article class="projects">
+    <h3>Projects</h3>
+    <p><a href="http://ryanfs.github.io/2048/">2048 Game (with color!)</a></p>
+    <p>Trello with a Calendar (coming soon...)</p>
+    <p>Jeopardy score keeper (coming soon...)</p>
+  </article>
+
+  <footer>
+    <p>Built by Ryan F. Salerno with vanilla javascript, hosted on S3. Typeset in Garamond.</p>
+  </footer>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-23423444-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
